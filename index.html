@@ -6,6 +6,16 @@
     <title>Homepage - My Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Additional styles */
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-body {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -32,8 +42,8 @@
     <!-- Hero Section -->
     <section class="hero bg-dark text-white text-center py-5">
         <div class="container">
-            <h1 class="display-4">Welcome to My Portfolio</h1>
-            <p class="lead">Showcasing my best concept art and upcoming projects</p>
+            <h1 class="display-4">Welcome To the Equilibrium's Fine Concept Art</h1>
+            <p class="lead">Showcasing my works and upcoming projects.</p>
             <a href="about.html" class="btn btn-primary btn-lg">Learn More</a>
         </div>
     </section>
@@ -42,27 +52,47 @@
     <section class="portfolio-highlights py-5">
         <div class="container">
             <h2 class="text-center">Featured Artworks</h2>
-            <div class="row">
-                <!-- Example Artwork -->
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
+            <div class="row justify-content-center">
+                <!-- Concept Art 1 -->
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card">
                         <img src="images/artwork1.jpg" class="card-img-top" alt="Artwork 1">
                         <div class="card-body">
-                            <p class="card-text">Concept Art 1: Description of your artwork.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <a href="art/artwork1.html" class="btn btn-sm btn-outline-secondary">View</a>
-                            </div>
+                            <h5 class="card-title">Concept Art 1</h5>
+                            <p class="card-text">Do you like scribbles?</p>
+                            <a href="art/artwork1.html" class="btn btn-primary">View</a>
                         </div>
                     </div>
                 </div>
-                <!-- Add more artworks similarly -->
+                <!-- Concept Art 4 -->
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="images/artwork4.png" class="card-img-top" alt="Artwork 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Concept Art 4</h5>
+                            <p class="card-text">I think someone dosent like traffic.</p>
+                            <a href="art/artwork4.html" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Concept Art 11 -->
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="images/artwork11.png" class="card-img-top" alt="Artwork 11">
+                        <div class="card-body">
+                            <h5 class="card-title">Concept Art 11</h5>
+                            <p class="card-text">Something about an unfinished cutscene.</p>
+                            <a href="art/artwork11.html" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2024 My Equilibrium. All human right are now non existent</p>
     </footer>
 
     <script src="js/bootstrap.min.js"></script>
